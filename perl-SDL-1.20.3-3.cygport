@@ -1,0 +1,5 @@
+ORIG_PN="SDL_perl"
+inherit perl
+
+HOMEPAGE="http://sdl.perl.org/"
+SRC_URI="mirror://gentoo/${ORIG_PN}-${PV}.tar.gz"

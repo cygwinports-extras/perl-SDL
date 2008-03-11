@@ -1,0 +1,7 @@
+category: Perl Games
+requires: cygwin perl libSDL12 libSDL_gfx libSDL_image libSDL_mixer libSDL_net libSDL_ttf smpeg
+sdesc: "Perl bindings for the SDL libraries"
+ldesc: "SDL_perl is a package of perl modules that provides both 
+functional and object orient interfaces to the Simple DirectMedia Layer 
+for Perl 5.  This package does take some liberties with the SDL API, 
+and attempts to adhere to the spirit of both the SDL and Perl."
