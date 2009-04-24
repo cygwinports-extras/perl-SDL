@@ -3,3 +3,5 @@ inherit perl
 
 HOMEPAGE="http://sdl.perl.org/"
 SRC_URI="mirror://gentoo/${ORIG_PN}-${PV}.tar.gz"
+
+PATCH_URI="1.20.3-cygwin.patch"

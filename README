@@ -6,24 +6,27 @@ This package does take some liberties with the SDL API, and attempts to
 adhere to the spirit of both the SDL and Perl. 
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  libGL1-7.0.2-1
-  libGLU1-7.0.2-1
-  libSDL12-1.2.12-1
-  libSDL_gfx-2.0.16-1
-  libSDL_image-1.2.6-1
-  libSDL_mixer-1.2.8-1
-  libSDL_net-1.2.7-1
-  libSDL_ttf-2.0.9-1
-  perl-5.10.0-3
-  smpeg-0.4.4-4
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libGL1-7.2-10
+  libGLU1-7.2-10
+  libSDL1.2_0-1.2.13-10
+  libSDL_gfx13-2.0.19-1
+  libSDL_image1.2_0-1.2.7-10
+  libSDL_mixer1.2_0-1.2.8-10
+  libSDL_net1.2_0-1.2.7-10
+  libSDL_ttf2.0_0-2.0.9-10
+  libsmpeg0.4_0-0.4.4-10
+  perl-5.10.0-5
+  perl-OpenGL-0.57-1
 
 Build requirements:
 (besides corresponding devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
-  gcc-core-3.4.4-3
-  make-3.81-1
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
 
 Canonical homepage:
   http://sdl.perl.org/
@@ -76,11 +79,11 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/SDL/autosplit.ix
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/SDL_perl/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/SDL_perl/SDL_perl.dll
-  /usr/share/doc/perl-SDL-1.20.3/BUGS
-  /usr/share/doc/perl-SDL-1.20.3/COPYING
-  /usr/share/doc/perl-SDL-1.20.3/ChangeLog
-  /usr/share/doc/perl-SDL-1.20.3/README
-  /usr/share/doc/perl-SDL-1.20.3/TODO
+  /usr/share/doc/perl-SDL/BUGS
+  /usr/share/doc/perl-SDL/COPYING
+  /usr/share/doc/perl-SDL/ChangeLog
+  /usr/share/doc/perl-SDL/README
+  /usr/share/doc/perl-SDL/TODO
   /usr/share/man/man3/SDL.3pm.gz
   /usr/share/man/man3/SDL.App.3pm.gz
   /usr/share/man/man3/SDL.Cdrom.3pm.gz
@@ -108,23 +111,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.20.3-3 -----
-Rebuilt for perl-5.10.
-
------ version 1.20.3-2 -----
-Rebuilt with gcc-3.4 and the X11 ports of the SDL libraries.
-Now that this is X11-based, SDL::OpenGL support is now included.
-
------ version 1.20.3-1 -----
-Turns out that SDL_perl-1.x and 2.x are incompatible, and those apps 
-that want SDL_perl want 1.x.  So until those apps upgrade, here's 1.x
-instead.
-This version was built against perl-5.8.6.
-
------ version 2.1.0-1 -----
-Initial release for Cygwin.  SDL::OpenGL was not built, as from the code 
-it seems to want X11 GL while SDL is Win32API-based, and it failed its 
-test when built.  Maybe that's what's meant in the BUGS file.  PTC.
+----- version 1.20.3-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
