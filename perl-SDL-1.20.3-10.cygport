@@ -4,4 +4,5 @@ inherit perl
 HOMEPAGE="http://sdl.perl.org/"
 SRC_URI="mirror://gentoo/${ORIG_PN}-${PV}.tar.gz"
 
-PATCH_URI="1.20.3-cygwin.patch"
+PATCH_URI="mirror://portage/dev-perl/sdl-perl/files/sdl-perl-1.20.3-pie-typo.patch
+           1.20.3-cygwin.patch"

@@ -147,31 +147,3 @@
 +WriteMakefile(%options );
 +
 +
---- origsrc/SDL_perl-1.20.3/SDL_perl.xs	2003-03-27 04:17:23.000000000 -0600
-+++ src/SDL_perl-1.20.3/SDL_perl.xs	2008-03-11 06:46:46.234375000 -0500
-@@ -75,7 +75,6 @@
- 
- #ifdef HAVE_SDL_CONSOLE
- #include "CON_console.h"
--#include "CON_consolecommands.h"
- #include "DT_drawtext.h"
- #endif
- 
-@@ -3732,6 +3731,8 @@
- OUTPUT:
-      RETVAL
- 
-+
-+#ifndef __CYGWIN__
- int
- GFXFilledpieColor ( dst, x, y, rad, start, end, color )
-     SDL_Surface* dst;
-@@ -3763,6 +3764,8 @@
- OUTPUT:
-      RETVAL
- 
-+#endif
-+
- int
- GFXPolygonColor ( dst, vx, vy, n, color )
-     SDL_Surface* dst;
