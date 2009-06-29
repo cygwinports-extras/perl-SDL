@@ -1,5 +1,5 @@
 category: Perl Games
-requires: cygwin libgcc1 libSDL1.2_0 libSDL_gfx13 libSDL_image1.2_0 libSDL_mixer1.2_0 libSDL_net1.2_0 libSDL_ttf2.0_0 libsmpeg0.4_0 perl
+requires: libgcc1 libSDL1.2_0 libSDL_gfx13 libSDL_image1.2_0 libSDL_mixer1.2_0 libSDL_net1.2_0 libSDL_ttf2.0_0 libsmpeg0.4_0 perl
 sdesc: "Perl bindings for the SDL libraries"
 ldesc: "SDL_perl is a package of perl modules that provides both 
 functional and object orient interfaces to the Simple DirectMedia Layer 
