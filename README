@@ -6,14 +6,14 @@ This package does take some liberties with the SDL API, and attempts to
 adhere to the spirit of both the SDL and Perl. 
 
 Runtime requirements:
-  cygwin-1.7.0-61
-  libgcc1-4.3.2-2
-  libGL1-7.4.4-1
-  libGLU1-7.4.4-1
-  libSDL1.2_0-1.2.13-10
-  libSDL_gfx13-2.0.19-1
-  libSDL_image1.2_0-1.2.7-10
-  libSDL_mixer1.2_0-1.2.8-10
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
+  libGL1-7.5.2-1
+  libGLU1-7.5.2-1
+  libSDL1.2_0-1.2.14-1
+  libSDL_gfx13-2.0.20-1
+  libSDL_image1.2_0-1.2.10-1
+  libSDL_mixer1.2_0-1.2.11-1
   libSDL_net1.2_0-1.2.7-10
   libSDL_ttf2.0_0-2.0.9-10
   libsmpeg0.4_0-0.4.4-10
@@ -22,10 +22,10 @@ Runtime requirements:
 Build requirements:
 (besides corresponding devel packages)
   binutils-2.19.51-1
-  cygport-0.9.9-1
-  gcc4-core-4.3.2-2
-  gcc4-g++-4.3.2-2
+  cygport-0.9.10-1
+  gcc4-core-4.3.4-1
   make-3.81-2
+  perl-Alien-SDL-0.7.3-1
 
 Canonical homepage:
   http://sdl.perl.org/
@@ -36,19 +36,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-SDL-2.2.2.17-X-src.tar.bz2
+  unpack perl-SDL-2.2.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-SDL-2.2.2.17-X.cygport all
+  cygport ./perl-SDL-2.2.6-X.cygport all
 
 This will create:
-  /usr/src/perl-SDL-2.2.2.17-X-src.tar.bz2
-  /usr/src/perl-SDL-2.2.2.17-X.tar.bz2
+  /usr/src/perl-SDL-2.2.6-X-src.tar.bz2
+  /usr/src/perl-SDL-2.2.6-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.2.6-1 -----
+Version bump.
 
 ----- version 2.2.2.17-1 -----
 Version bump.

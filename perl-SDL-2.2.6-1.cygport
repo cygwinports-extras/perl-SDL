@@ -3,5 +3,5 @@ CPAN_AUTHOR="kthakore"
 inherit perl
 
 HOMEPAGE="http://sdl.perl.org/"
-SRC_URI="mirror://cpan/authors/id/K/KT/KTHAKORE/${ORIG_PN}-v${PV}.tar.gz"
+SRC_URI=${SRC_URI/${PV}/v${PV}}
 SRC_DIR=${ORIG_PN}-v${PV}
