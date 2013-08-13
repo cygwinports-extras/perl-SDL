@@ -1,7 +1,0 @@
-category: Perl
-requires: libSDL1.2_0 libSDL_gfx13 libSDL_image1.2_0 libSDL_mixer1.2_0 libSDL_ttf2.0_0 perl perl-Alien-SDL perl-Tie-Simple
-sdesc: "Perl bindings for the SDL libraries"
-ldesc: "SDL_perl is a package of perl modules that provides both 
-functional and object orient interfaces to the Simple DirectMedia Layer 
-for Perl 5.  This package does take some liberties with the SDL API, 
-and attempts to adhere to the spirit of both the SDL and Perl."

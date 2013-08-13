@@ -1,0 +1,13 @@
+CPAN_AUTHOR="jtpalmer"
+inherit perl
+
+NAME="perl-SDL"
+VERSION=2.540
+RELEASE=2
+CATEGORY="Perl"
+SUMMARY="Perl bindings for the SDL libraries"
+DESCRIPTION="SDL_perl is a package of perl modules that provides both
+functional and object orient interfaces to the Simple DirectMedia Layer for
+Perl 5.  This package does take some liberties with the SDL API, and attempts
+to adhere to the spirit of both the SDL and Perl."
+HOMEPAGE="http://sdl.perl.org/"

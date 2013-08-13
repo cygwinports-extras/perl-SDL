@@ -1,4 +1,0 @@
-CPAN_AUTHOR="jtpalmer"
-inherit perl
-
-HOMEPAGE="http://sdl.perl.org/"
