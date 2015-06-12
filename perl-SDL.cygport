@@ -1,9 +1,9 @@
-CPAN_AUTHOR="jtpalmer"
+CPAN_AUTHOR="froggs"
 inherit perl
 
 NAME="perl-SDL"
-VERSION=2.540
-RELEASE=2
+VERSION=2.546
+RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl bindings for the SDL libraries"
 DESCRIPTION="SDL_perl is a package of perl modules that provides both
