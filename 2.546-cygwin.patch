@@ -1,0 +1,13 @@
+--- origsrc/SDL-2.546/inc/My/Builder/Unix.pm	2015-04-27 13:21:54.000000000 -0500
++++ src/SDL-2.546/inc/My/Builder/Unix.pm	2015-06-28 14:10:47.035366100 -0500
+@@ -2,10 +2,4 @@ package My::Builder::Unix;
+ use base 'My::Builder';
+ use Config;
+ 
+-if($^O eq 'cygwin') {
+-	my $ccflags          = $Config{ccflags};
+-	$ccflags             =~ s/-fstack-protector//;
+-	$My::Builder::config = { ld => 'gcc', cc => 'gcc', ccflags => $ccflags };
+-}
+-
+ 1;
