@@ -3,7 +3,7 @@ inherit perl
 
 NAME="perl-SDL"
 VERSION=2.546
-RELEASE=2
+RELEASE=3
 CATEGORY="Perl"
 SUMMARY="Perl bindings for the SDL libraries"
 DESCRIPTION="SDL_perl is a package of perl modules that provides both
